@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CORS POC Exploit</title>
+    <link rel="icon" href="CORS ICON.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 data-text="CORS Exploit POC">CORS Exploit POC</h2>
+        <hr><br>
+
+        <div class="input-container">
+            <input type="text" id="targetURL" placeholder="Enter the target vulnerable URL here" />
+            <button onclick="exploitCORS()">Exploit</button>
+        </div>
+
+        <textarea id="fetchedResource" placeholder="Click the button to fetch the resource!"></textarea>
+
+        <footer>
+            <p>Created By <a href="https://github.com/kalmux1" target="_blank">Kalmux</a> | Designed with passion for Bug Bounty Hunting </p>
+        </footer>
+
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
